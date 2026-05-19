@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(vercel *)",
+      "PowerShell(Write-Output \\(Get-Location\\).Path)",
+      "PowerShell(Write-Output \\(Get-ChildItem \"C:\\\\Users\\\\shyam\\\\Desktop\\\\projects\\\\portfolio\\\\src\\\\app\\\\page.tsx\"\\).FullName)",
+      "PowerShell(Get-Content \"C:\\\\Users\\\\shyam\\\\Desktop\\\\projects\\\\portfolio\\\\src\\\\app\\\\page.tsx\" | Select-Object -First 20 | ForEach-Object { Write-Output $_ })"
+    ]
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "feature-dev@claude-plugins-official": true,
+    "vercel@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true
+  }
+}
