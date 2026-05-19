@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { Code2, Link2, Mail, Send, CheckCircle } from "lucide-react";
+import { Mail, Send, CheckCircle } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { GradientText } from "@/components/ui/GradientText";
@@ -84,7 +85,7 @@ export const Contact = () => {
                   className="flex items-center gap-3 text-white/55 hover:text-white transition-colors duration-200 group"
                 >
                   <div className="p-2.5 rounded-xl bg-white/5 border border-white/10 group-hover:border-blue-500/30 transition-colors">
-                    <Code2 size={17} className="text-blue-400" strokeWidth={1.8} />
+                    <FaGithub size={17} className="text-blue-400" />
                   </div>
                   <span className="text-sm">github.com/ShyamSundar2705</span>
                 </a>
@@ -95,7 +96,7 @@ export const Contact = () => {
                   className="flex items-center gap-3 text-white/55 hover:text-white transition-colors duration-200 group"
                 >
                   <div className="p-2.5 rounded-xl bg-white/5 border border-white/10 group-hover:border-blue-500/30 transition-colors">
-                    <Link2 size={17} className="text-blue-400" strokeWidth={1.8} />
+                    <FaLinkedin size={17} className="text-blue-400" />
                   </div>
                   <span className="text-sm">linkedin.com/in/arshyamsundar</span>
                 </a>
