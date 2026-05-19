@@ -151,8 +151,8 @@ export const experiences: Experience[] = [
 
 export const education: Education = {
   degree: "B.E. Computer Science and Engineering",
-  college: "[ TODO: Add your college name ]",
-  year: "[ TODO: Add graduation year ]",
+  college: "Sri Manakula Vinayagar Engineering College",
+  year: "Final year (2023-2027)",
   // cgpa: "[ TODO: Uncomment and set your CGPA ]",
 };
 
