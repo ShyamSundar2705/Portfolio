@@ -45,7 +45,7 @@ export const Hero = () => {
         <div className="space-y-6">
           <div className="space-y-2">
             <p className="text-white/50 text-lg font-medium tracking-wide">Hi, I&apos;m</p>
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold leading-tight whitespace-nowrap">
               <GradientText>{personal.name}</GradientText>
             </h1>
             <div className="flex items-center h-12">
