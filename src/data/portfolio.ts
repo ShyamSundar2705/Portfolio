@@ -49,9 +49,9 @@ export interface NavLink {
 }
 
 export const personal: PersonalInfo = {
-  name: "Shyam Sundar",
+  name: "Shyam Sundar A",
   taglines: ["Full Stack Developer", "Cloud Engineer", "AI Builder"],
-  bio: "I'm a computer science student from Chennai passionate about building full-stack applications, cloud-native systems, and AI-powered tools. I love turning complex problems into clean, working products.",
+  bio: "I'm an information technology student from Puducherry passionate about building full-stack applications, cloud-native systems, and AI-powered tools. I love turning complex problems into clean, working products.",
   github: "https://github.com/ShyamSundar2705",
   linkedin: "https://www.linkedin.com/in/arshyamsundar/",
   email: "shyamarunach@gmail.com",
@@ -124,33 +124,33 @@ export const projects: Project[] = [
 
 export const experiences: Experience[] = [
   {
-    org: "EduSkills (AICTE)",
-    role: "Cloud Computing Virtual Intern",
-    duration: "Jun 2024 – Jul 2024",
+    org: "EduSkills / AICTE",
+    role: "Prompt Engineering for AI Virtual Intern",
+    duration: "Jan 2026 – Mar 2026",
     description:
-      "Completed hands-on labs on AWS core services including EC2, S3, IAM, and VPC through the AICTE-recognized virtual internship program.",
+      "Completed a 10-week program covering core prompting techniques, OpenAI API, Hugging Face Transformers, text generation, information extraction, code generation, chatbot prompting, image generation (DALL-E/Midjourney), and a capstone AI-powered content generation platform.",
     type: "Virtual Internship",
   },
   {
-    org: "EduSkills (AICTE)",
-    role: "AI-ML Virtual Intern",
-    duration: "Jan 2024 – Feb 2024",
+    org: "EduSkills Academy",
+    role: "Python Full Stack Developer Virtual Intern",
+    duration: "Oct 2024 – Dec 2024",
     description:
-      "Explored machine learning fundamentals, model training with scikit-learn, and data preprocessing pipelines through guided lab exercises.",
+      "Completed a 10-week full stack development program covering Python-based backend development, frontend integration, and building production-ready web applications.",
     type: "Virtual Internship",
   },
   {
-    org: "EduSkills (AICTE)",
+    org: "EduSkills / AICTE (Palo Alto Networks)",
     role: "Cybersecurity Virtual Intern",
-    duration: "Aug 2023 – Sep 2023",
+    duration: "Apr 2024 – Jun 2024",
     description:
-      "Gained foundational knowledge in network security, ethical hacking concepts, and common vulnerability patterns through AICTE-certified coursework.",
+      "Gained hands-on knowledge in network security, threat analysis, and cybersecurity fundamentals through a program supported by Palo Alto Networks and EduSkills Academy.",
     type: "Virtual Internship",
   },
 ];
 
 export const education: Education = {
-  degree: "B.E. Computer Science and Engineering",
+  degree: "B.Tech Information Technology",
   college: "Sri Manakula Vinayagar Engineering College",
   year: "Final year (2023-2027)",
   // cgpa: "[ TODO: Uncomment and set your CGPA ]",

@@ -4,7 +4,10 @@
       "PowerShell(vercel *)",
       "PowerShell(Write-Output \\(Get-Location\\).Path)",
       "PowerShell(Write-Output \\(Get-ChildItem \"C:\\\\Users\\\\shyam\\\\Desktop\\\\projects\\\\portfolio\\\\src\\\\app\\\\page.tsx\"\\).FullName)",
-      "PowerShell(Get-Content \"C:\\\\Users\\\\shyam\\\\Desktop\\\\projects\\\\portfolio\\\\src\\\\app\\\\page.tsx\" | Select-Object -First 20 | ForEach-Object { Write-Output $_ })"
+      "PowerShell(Get-Content \"C:\\\\Users\\\\shyam\\\\Desktop\\\\projects\\\\portfolio\\\\src\\\\app\\\\page.tsx\" | Select-Object -First 20 | ForEach-Object { Write-Output $_ })",
+      "Bash(npx tsc *)",
+      "Bash(findstr /v \".next\")",
+      "Skill(commit-commands:commit)"
     ]
   },
   "enabledPlugins": {

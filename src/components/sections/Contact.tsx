@@ -22,10 +22,12 @@ export const Contact = () => {
   const [form, setForm] = useState<FormState>({ name: "", email: "", message: "" });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(false);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setError(false);
     try {
       await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
@@ -38,6 +40,8 @@ export const Contact = () => {
       setTimeout(() => setSuccess(false), 5000);
     } catch (err) {
       console.error("EmailJS error:", err);
+      setError(true);
+      setTimeout(() => setError(false), 5000);
     } finally {
       setIsSubmitting(false);
     }
@@ -170,6 +174,14 @@ export const Contact = () => {
                     </>
                   )}
                 </button>
+                {error && (
+                  <p className="text-red-400 text-xs text-center pt-1">
+                    Failed to send — please try emailing me directly at{" "}
+                    <a href={`mailto:${personal.email}`} className="underline hover:text-red-300">
+                      {personal.email}
+                    </a>
+                  </p>
+                )}
               </form>
             </GlassCard>
           </AnimatedSection>
@@ -186,7 +198,7 @@ export const Contact = () => {
             rel="noopener noreferrer"
             className="hover:text-white/40 transition-colors"
           >
-            Shyam Sundar
+            {personal.name}
           </a>{" "}
           · {personal.location}
         </p>
