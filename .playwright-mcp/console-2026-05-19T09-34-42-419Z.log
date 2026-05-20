@@ -1,0 +1,5 @@
+[   10838ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api.emailjs.com/api/v1.0/email/send:0
+[   10839ms] [ERROR] EmailJS error: y @ https://portfolio-phi-jet-58.vercel.app/_next/static/chunks/1651wibkjsf-z.js:0
+[   40843ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://portfolio-phi-jet-58.vercel.app/_next/static/chunks/1651wibkjsf-z.js:0
+[   55660ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://portfolio-phi-jet-58.vercel.app/_next/static/chunks/1651wibkjsf-z.js:0
+[   87079ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://portfolio-phi-jet-58.vercel.app/_next/static/chunks/1651wibkjsf-z.js:0

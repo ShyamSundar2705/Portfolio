@@ -1,0 +1,305 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - link "SS" [ref=e6] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e7]: SS
+        - generic [ref=e8]:
+          - link "About" [ref=e9] [cursor=pointer]:
+            - /url: "#about"
+          - link "Skills" [ref=e10] [cursor=pointer]:
+            - /url: "#skills"
+          - link "Projects" [ref=e11] [cursor=pointer]:
+            - /url: "#projects"
+          - link "Experience" [ref=e12] [cursor=pointer]:
+            - /url: "#experience"
+          - link "Education" [ref=e13] [cursor=pointer]:
+            - /url: "#education"
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: "#contact"
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - paragraph [ref=e19]: Hi, I'm
+            - heading "Shyam Sundar A" [level=1] [ref=e20]
+            - generic [ref=e22]: Full Stack D
+          - paragraph [ref=e24]: I'm an information technology student from Puducherry passionate about building full-stack applications, cloud-native systems, and AI-powered tools. I love turning complex problems into clean, working products.
+          - generic [ref=e25]:
+            - link "View Projects" [ref=e26] [cursor=pointer]:
+              - /url: "#projects"
+            - link "Download Resume" [ref=e27] [cursor=pointer]:
+              - /url: /resume.pdf
+        - generic [ref=e32]: SS
+      - generic [ref=e35]: scroll
+    - generic [ref=e37]:
+      - heading "About Me" [level=2] [ref=e39]
+      - generic [ref=e40]:
+        - generic [ref=e42]:
+          - paragraph [ref=e43]: I'm an information technology student from Puducherry passionate about building full-stack applications, cloud-native systems, and AI-powered tools. I love turning complex problems into clean, working products.
+          - generic [ref=e44]:
+            - heading "What I Do" [level=3] [ref=e45]
+            - list [ref=e46]:
+              - listitem [ref=e47]:
+                - img [ref=e48]
+                - text: Build full-stack web apps with Next.js, React, and Node.js
+              - listitem [ref=e51]:
+                - img [ref=e52]
+                - text: Design and deploy cloud-native systems on AWS
+              - listitem [ref=e55]:
+                - img [ref=e56]
+                - text: Develop AI-powered tools using LangGraph and Groq
+              - listitem [ref=e59]:
+                - img [ref=e60]
+                - text: Create performant REST APIs with FastAPI and Python
+        - generic [ref=e64]:
+          - heading "Quick Stats" [level=3] [ref=e65]
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]: 4+
+              - generic [ref=e69]: Projects Shipped
+            - generic [ref=e70]:
+              - generic [ref=e71]: "3"
+              - generic [ref=e72]: Cloud Certifications
+            - generic [ref=e73]:
+              - generic [ref=e74]: "1"
+              - generic [ref=e75]: Hackathon
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - heading "Skills" [level=2] [ref=e79]
+        - paragraph [ref=e80]: Technologies I work with
+      - generic [ref=e81]:
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - img [ref=e86]
+            - heading "Frontend" [level=3] [ref=e88]
+          - generic [ref=e89]:
+            - generic [ref=e90]: React
+            - generic [ref=e91]: Next.js
+            - generic [ref=e92]: TypeScript
+            - generic [ref=e93]: Tailwind CSS
+            - generic [ref=e94]: Vite
+            - generic [ref=e95]: HTML
+            - generic [ref=e96]: CSS
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - heading "Backend" [level=3] [ref=e104]
+          - generic [ref=e105]:
+            - generic [ref=e106]: Node.js
+            - generic [ref=e107]: FastAPI
+            - generic [ref=e108]: Python
+            - generic [ref=e109]: REST APIs
+            - generic [ref=e110]: JWT Auth
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - img [ref=e115]
+            - heading "Cloud & DevOps" [level=3] [ref=e117]
+          - generic [ref=e118]:
+            - generic [ref=e119]: AWS Lambda
+            - generic [ref=e120]: S3
+            - generic [ref=e121]: DynamoDB
+            - generic [ref=e122]: API Gateway
+            - generic [ref=e123]: Cognito
+            - generic [ref=e124]: EC2
+            - generic [ref=e125]: Docker
+            - generic [ref=e126]: Vercel
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - img [ref=e131]
+            - heading "AI & ML" [level=3] [ref=e139]
+          - generic [ref=e140]:
+            - generic [ref=e141]: LangGraph
+            - generic [ref=e142]: Groq API
+            - generic [ref=e143]: Llama 3.1
+            - generic [ref=e144]: Prompt Engineering
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - img [ref=e149]
+            - heading "Tools & Others" [level=3] [ref=e151]
+          - generic [ref=e152]:
+            - generic [ref=e153]: Git
+            - generic [ref=e154]: GitHub
+            - generic [ref=e155]: Postman
+            - generic [ref=e156]: VS Code
+            - generic [ref=e157]: Linux
+    - generic [ref=e159]:
+      - generic [ref=e160]:
+        - heading "Projects" [level=2] [ref=e161]
+        - paragraph [ref=e162]: Things I've built
+      - generic [ref=e163]:
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - heading "VaidyaScribe" [level=3] [ref=e167]
+            - generic [ref=e168]: Hackathon — Cognizant Technoverse 2026
+          - paragraph [ref=e169]: Tamil/English multilingual AI clinical documentation system with SOAP note generation, prescription pad, burnout dashboard, and patient history search.
+          - generic [ref=e170]:
+            - generic [ref=e171]: FastAPI
+            - generic [ref=e172]: LangGraph
+            - generic [ref=e173]: React 19
+            - generic [ref=e174]: Groq
+            - generic [ref=e175]: Docker
+            - generic [ref=e176]: AWS EC2
+            - generic [ref=e177]: Let's Encrypt SSL
+          - generic [ref=e178]:
+            - link "GitHub" [ref=e179] [cursor=pointer]:
+              - /url: https://github.com/ShyamSundar2705
+              - img [ref=e180]
+              - text: GitHub
+            - generic [ref=e184]:
+              - img [ref=e185]
+              - text: Live Demo
+        - generic [ref=e190]:
+          - generic [ref=e191]:
+            - heading "Resume Insights" [level=3] [ref=e192]
+            - generic [ref=e193]: Mini Project
+          - paragraph [ref=e194]: Cloud-based resume analyzer and skill gap detection system using serverless AWS infrastructure and LLM-powered analysis.
+          - generic [ref=e195]:
+            - generic [ref=e196]: React
+            - generic [ref=e197]: Vite
+            - generic [ref=e198]: AWS Lambda
+            - generic [ref=e199]: S3
+            - generic [ref=e200]: DynamoDB
+            - generic [ref=e201]: API Gateway
+            - generic [ref=e202]: Groq API
+            - generic [ref=e203]: Tailwind CSS
+          - generic [ref=e204]:
+            - link "GitHub" [ref=e205] [cursor=pointer]:
+              - /url: https://github.com/ShyamSundar2705
+              - img [ref=e206]
+              - text: GitHub
+            - generic [ref=e210]:
+              - img [ref=e211]
+              - text: Live Demo
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - heading "StudyTrack" [level=3] [ref=e218]
+            - generic [ref=e219]: Mobile App
+          - paragraph [ref=e220]: Full-stack mobile study-timer app for logging focused sessions, tracking streaks, viewing study insights with heatmaps and charts, and competing in real-time study groups with a live leaderboard.
+          - generic [ref=e221]:
+            - generic [ref=e222]: React Native
+            - generic [ref=e223]: Expo
+            - generic [ref=e224]: Fastify
+            - generic [ref=e225]: TypeScript
+            - generic [ref=e226]: PostgreSQL
+            - generic [ref=e227]: Prisma
+            - generic [ref=e228]: Supabase Auth
+            - generic [ref=e229]: Socket.io
+          - generic [ref=e230]:
+            - link "GitHub" [ref=e231] [cursor=pointer]:
+              - /url: https://github.com/ShyamSundar2705/StudyTrack
+              - img [ref=e232]
+              - text: GitHub
+            - generic [ref=e236]:
+              - img [ref=e237]
+              - text: Local / Device
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - heading "Gesture-Based Home Automation" [level=3] [ref=e244]
+            - generic [ref=e245]: IoT + Computer Vision
+          - paragraph [ref=e246]: Camera-based gesture-controlled home automation. Recognizes hand gestures in real-time using OpenCV and MediaPipe, sending commands to an ESP32 microcontroller via serial — no internet dependency.
+          - generic [ref=e247]:
+            - generic [ref=e248]: Python
+            - generic [ref=e249]: OpenCV
+            - generic [ref=e250]: MediaPipe
+            - generic [ref=e251]: PySerial
+            - generic [ref=e252]: ESP32
+            - generic [ref=e253]: Arduino C++
+          - generic [ref=e254]:
+            - link "GitHub" [ref=e255] [cursor=pointer]:
+              - /url: https://github.com/ShyamSundar2705/Gesture_Based_Home_Automation
+              - img [ref=e256]
+              - text: GitHub
+            - generic [ref=e260]:
+              - img [ref=e261]
+              - text: Local / Device
+    - generic [ref=e266]:
+      - heading "Experience" [level=2] [ref=e268]
+      - generic [ref=e271]:
+        - generic [ref=e273]:
+          - img [ref=e276]
+          - generic [ref=e279]:
+            - generic [ref=e280]:
+              - generic [ref=e281]:
+                - heading "Prompt Engineering for AI Virtual Intern" [level=3] [ref=e282]
+                - paragraph [ref=e283]: EduSkills / AICTE
+              - generic [ref=e284]:
+                - generic [ref=e285]: Jan 2026 – Mar 2026
+                - generic [ref=e286]: Virtual Internship
+            - paragraph [ref=e287]: Completed a 10-week program covering core prompting techniques, OpenAI API, Hugging Face Transformers, text generation, information extraction, code generation, chatbot prompting, image generation (DALL-E/Midjourney), and a capstone AI-powered content generation platform.
+        - generic [ref=e289]:
+          - img [ref=e292]
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - generic [ref=e297]:
+                - heading "Python Full Stack Developer Virtual Intern" [level=3] [ref=e298]
+                - paragraph [ref=e299]: EduSkills Academy
+              - generic [ref=e300]:
+                - generic [ref=e301]: Oct 2024 – Dec 2024
+                - generic [ref=e302]: Virtual Internship
+            - paragraph [ref=e303]: Completed a 10-week full stack development program covering Python-based backend development, frontend integration, and building production-ready web applications.
+        - generic [ref=e305]:
+          - img [ref=e308]
+          - generic [ref=e311]:
+            - generic [ref=e312]:
+              - generic [ref=e313]:
+                - heading "Cybersecurity Virtual Intern" [level=3] [ref=e314]
+                - paragraph [ref=e315]: EduSkills / AICTE (Palo Alto Networks)
+              - generic [ref=e316]:
+                - generic [ref=e317]: Apr 2024 – Jun 2024
+                - generic [ref=e318]: Virtual Internship
+            - paragraph [ref=e319]: Gained hands-on knowledge in network security, threat analysis, and cybersecurity fundamentals through a program supported by Palo Alto Networks and EduSkills Academy.
+    - generic [ref=e321]:
+      - heading "Education" [level=2] [ref=e323]
+      - generic [ref=e325]:
+        - img [ref=e328]
+        - heading "B.Tech Information Technology" [level=3] [ref=e331]
+        - paragraph [ref=e332]: Sri Manakula Vinayagar Engineering College
+        - paragraph [ref=e333]: Final year (2023-2027)
+    - generic [ref=e334]:
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - heading "Let's Connect" [level=2] [ref=e337]
+          - paragraph [ref=e338]: Got a project in mind? Let's talk.
+        - generic [ref=e339]:
+          - generic [ref=e341]:
+            - generic [ref=e342]:
+              - heading "Let's build something together" [level=3] [ref=e343]
+              - paragraph [ref=e344]: Whether it's a full-stack web app, a cloud deployment, or an AI feature — I'm open to interesting projects and collaborations. Reach out and let's create something great.
+            - generic [ref=e345]:
+              - link "shyamarunach@gmail.com" [ref=e346] [cursor=pointer]:
+                - /url: mailto:shyamarunach@gmail.com
+                - img [ref=e348]
+                - generic [ref=e351]: shyamarunach@gmail.com
+              - link "github.com/ShyamSundar2705" [ref=e352] [cursor=pointer]:
+                - /url: https://github.com/ShyamSundar2705
+                - img [ref=e354]
+                - generic [ref=e356]: github.com/ShyamSundar2705
+              - link "linkedin.com/in/arshyamsundar" [ref=e357] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/arshyamsundar/
+                - img [ref=e359]
+                - generic [ref=e361]: linkedin.com/in/arshyamsundar
+          - generic [ref=e364]:
+            - generic [ref=e365]:
+              - generic [ref=e366]: Name
+              - textbox "Your name" [ref=e367]: Test User
+            - generic [ref=e368]:
+              - generic [ref=e369]: Email
+              - textbox "you@example.com" [ref=e370]: test@example.com
+            - generic [ref=e371]:
+              - generic [ref=e372]: Message
+              - textbox "Tell me about your project..." [ref=e373]: Final contact form test.
+            - button "Send Message" [ref=e374]:
+              - img [ref=e392]
+              - text: Send Message
+            - paragraph [ref=e395]:
+              - text: Failed to send — please try emailing me directly at
+              - link "shyamarunach@gmail.com" [ref=e396] [cursor=pointer]:
+                - /url: mailto:shyamarunach@gmail.com
+      - paragraph [ref=e379]:
+        - text: Built by
+        - link "Shyam Sundar A" [ref=e380] [cursor=pointer]:
+          - /url: https://github.com/ShyamSundar2705
+        - text: · Puducherry, India
+  - alert [ref=e381]

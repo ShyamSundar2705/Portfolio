@@ -1,0 +1,2 @@
+[   23389ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://api.emailjs.com/api/v1.0/email/send:0
+[   23390ms] [ERROR] EmailJS error: y @ https://portfolio-phi-jet-58.vercel.app/_next/static/chunks/1651wibkjsf-z.js:0
