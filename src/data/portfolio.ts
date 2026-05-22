@@ -57,8 +57,7 @@ export const personal: PersonalInfo = {
   linkedin: "https://www.linkedin.com/in/arshyamsundar/",
   email: "shyamarunach@gmail.com",
   location: "Puducherry, India",
-  // TODO: Replace YOUR_FILE_ID with your actual Google Drive file ID
-  resumeUrl: "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID",
+  resumeUrl: "https://drive.google.com/uc?export=download&id=1zx1PGLK9lzZc7v6mEwkDKfgxPWe8b2LB",
 };
 
 export const skills: Skill[] = [
