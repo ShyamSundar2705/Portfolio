@@ -6,6 +6,7 @@ export interface PersonalInfo {
   linkedin: string;
   email: string;
   location: string;
+  resumeUrl: string;
 }
 
 export interface Skill {
@@ -56,6 +57,8 @@ export const personal: PersonalInfo = {
   linkedin: "https://www.linkedin.com/in/arshyamsundar/",
   email: "shyamarunach@gmail.com",
   location: "Puducherry, India",
+  // TODO: Replace YOUR_FILE_ID with your actual Google Drive file ID
+  resumeUrl: "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID",
 };
 
 export const skills: Skill[] = [

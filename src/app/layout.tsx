@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Shyam Sundar | Portfolio",
     description: "Full Stack Developer · Cloud Engineer · AI Builder",
-    url: 'https://shyamsundar.is-a.dev',
+    url: 'https://www.shyamsundar.is-a.dev',
     siteName: "Shyam Sundar Portfolio",
     images: [
       {
